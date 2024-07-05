@@ -61,6 +61,26 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
 
 - **Oyun Durumu**: Ekran görüntüleri:
+- ![oyun1](https://github.com/cigiol/Group15/assets/153134707/1ddb6758-0d07-432b-91f6-26e78d94798b)
+![oyun2](https://github.com/cigiol/Group15/assets/153134707/2ce8b258-d0fb-43db-af1f-17a70f2edcf8)
+![oyun3](https://github.com/cigiol/Group15/assets/153134707/536543ce-7080-4281-a23d-57e314a3c17c)
+![oyun4](https://github.com/cigiol/Group15/assets/153134707/e5069135-5d89-4989-b390-244c2e177df8)
+
+- **Sprint Review**:
+  
+-Gerekli olan assetlere karar verilmiş,karakterin controller kodları tamamlanmış,oyunun haritasının temelleri atılmıştır.Oyun açılış sayfasının yapımına başlanmıştır.
+
+ -Katılımcılar:Can Karakoç,Cihan Gürtürk,Ebru Binay,Eda Parak,Ceylin Fatma Çınuk
+
+
+- **Sprint Retrospective**
+  
+-Takım üyeleri arasındaki iletişimi ve iş birliğinin daha güçlü olması gerektiği vurgulanmıştır.
+
+-Gelecek sprintte daha ayrıntılı çalışılması gerektiği vurgulanmıştır.
+
+ 
+
 
 
 
