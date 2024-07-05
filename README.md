@@ -57,9 +57,10 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
  [DailyScrumScreenShots](https://imgur.com/a/1tQe845)
 
  - **Sprint board update**: Sprint board screenshot:
- -  
+ -  ![sprint1](https://github.com/cigiol/Group15/assets/153134707/db902df2-bc4f-4193-b22d-531534554fd4)
 
 
+- **Oyun Durumu**: Ekran görüntüleri:
 
 
 
