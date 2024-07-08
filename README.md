@@ -18,7 +18,7 @@ Curse of the Haunted Treasure
 
 ## Product Backlog URL
 
-[Grup15 Unity Miro Backlog Board](https://miro.com/app/board/uXjVK4rKFNE=/)
+[Grup15 Unity Miro Backlog Board]([https://miro.com/app/board/uXjVK4rKFNE=/](https://miro.com/welcomeonboard/amppTVl6OVpNVEp2NGpEaWhqY2s2TWphTXZndEdGUmRKMTRxVWs5U1JrdDU5dHpGVzI4OVo1Y0EzV3lZSlhub3wzNDU4NzY0NTkzMDQ2NDg5MTI3fDI=?share_link_id=458202041402))
 
 ## Oyunun Açıklaması
 
