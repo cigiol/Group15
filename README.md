@@ -60,6 +60,8 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
  -  ![sprint1](https://github.com/cigiol/Group15/assets/153134707/db902df2-bc4f-4193-b22d-531534554fd4)
 
 
+
+
 - **Oyun Durumu**: Ekran görüntüleri:
 - ![oyun1](https://github.com/cigiol/Group15/assets/153134707/1ddb6758-0d07-432b-91f6-26e78d94798b)
 ![oyun2](https://github.com/cigiol/Group15/assets/153134707/2ce8b258-d0fb-43db-af1f-17a70f2edcf8)
