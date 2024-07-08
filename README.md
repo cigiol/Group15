@@ -58,7 +58,9 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
  - **Sprint board update**: Sprint board screenshot:
  -  ![sprint1](https://github.com/cigiol/Group15/assets/153134707/db902df2-bc4f-4193-b22d-531534554fd4)
-
+ -  ![sprint2](https://github.com/cigiol/Group15/assets/153134707/f988e3db-0b05-4f4e-b3cf-f8e006b058e0)
+ -  ![sprint3](https://github.com/cigiol/Group15/assets/153134707/e1a98db8-b484-45b2-9e59-2c4a7ef4df63)
+ - ![sprint4](https://github.com/cigiol/Group15/assets/153134707/b3f0bbc6-41da-4008-abb3-95b1e1080d34)
 
 
 
