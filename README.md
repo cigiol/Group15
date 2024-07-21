@@ -83,7 +83,21 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
 -Gelecek sprintte daha ayrıntılı çalışılması gerektiği vurgulanmıştır.
 
- 
+
+# Sprint 2
+
+ **Sprint notları**:Mlagents’ta başarılı olunamadığı için  navmesh üzerinden gidilecek.
+
+**Sprint içi puan değerlendirmesi**: 120 puan olarak belirlenmiştir.
+
+**Daily Scrum**:Whatsapp ve Discord üzerinden görüşmeler yapılmıştır.Daha çok Whatsapp üzerinden yapılmıştır.
+
+**Toplantı ve Whatsapp ScreenShotları**
+
+ [DailyScrumScreenShots](https://imgur.com/a/Zjyqwnu) 
+
+ - **Sprint board update**: Sprint board screenshot:
+
 
 
 
