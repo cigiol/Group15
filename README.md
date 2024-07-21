@@ -97,8 +97,31 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
  [DailyScrumScreenShots](https://imgur.com/a/Zjyqwnu) 
 
  - **Sprint board update**: Sprint board screenshot:
+-![sprint1](https://github.com/user-attachments/assets/da03d72f-f74d-4ad5-a9f3-1242903eede2)
+
+-![sprint2](https://github.com/user-attachments/assets/2cf853cb-6337-49da-ad37-dc338234e2af)
+
+-![sprint3](https://github.com/user-attachments/assets/c4484633-f1da-4f98-a7c9-8d72134c888f)
+
+ **Oyun Durumu**: Ekran görüntüleri:
 
 
+
+
+
+ - **Sprint Review**:
+   
+- Oyuncu seçme ekranı yapılmış, başlangıç sahnesi oluşturulmuş, scriptable object yazılmış, object pooling sistemi oluşturulmuş,yakın mesafeli saldırı mekaniği kodlanmıştır.
+  
+- Katılımcılar: Can Karakoç, Cihan Gürtürk, Ebru Binay, Eda Parak, Ceylin Fatma Çınuk
+
+- **Sprint Retrospective**
+  
+- -Sprint içi puan değerlendirmesi 110’dur.Rastgele ama çok kişiye vuran silah kodu diğer sprinte kalmıştır.
+
+- Takım üyeleri arasındaki iletişimi ve iş birliğinin daha güçlü olması gerektiği vurgulanmıştır.
+  
+-Gelecek sprintte daha ayrıntılı çalışılması gerektiği vurgulanmıştır.
 
 
 
