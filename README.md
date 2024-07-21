@@ -86,7 +86,7 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
 # Sprint 2
 
- **Sprint notları**:Mlagents’ta başarılı olunamadığı için  navmesh üzerinden gidilecek.
+ **Sprint notları**:ML-agents’ta başarılı olunamadığı için  navmesh üzerinden gidilecek.
 
 **Sprint içi puan değerlendirmesi**: 120 puan olarak belirlenmiştir.
 
@@ -99,11 +99,11 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
  
 
  - **Sprint board update**: Sprint board screenshot:
-![sprint1](https://github.com/user-attachments/assets/da03d72f-f74d-4ad5-a9f3-1242903eede2)
+![sprint11](https://github.com/user-attachments/assets/1773bfb1-8b78-47c9-a334-1e5b6b003ebb)
 
 ![sprint2](https://github.com/user-attachments/assets/2cf853cb-6337-49da-ad37-dc338234e2af)
 
-![sprint3](https://github.com/user-attachments/assets/c4484633-f1da-4f98-a7c9-8d72134c888f)
+![sprint33](https://github.com/user-attachments/assets/e009a3be-5505-410e-bc80-ff27c12523e7)
 
 
 
@@ -120,19 +120,19 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
  - **Sprint Review**:
    
-- Oyuncu seçme ekranı yapılmış, başlangıç sahnesi oluşturulmuş, scriptable object yazılmış, object pooling sistemi oluşturulmuş,yakın mesafeli saldırı mekaniği kodlanmış,can barı yapılmıştır.
+  -Oyuncu seçme ekranı yapılmış, başlangıç sahnesi oluşturulmuş, scriptable object yazılmış, object pooling sistemi oluşturulmuş,yakın mesafeli saldırı mekaniği kodlanmış,can barı yapılmıştır.
   
-- Katılımcılar: Can Karakoç, Cihan Gürtürk, Ebru Binay, Eda Parak, Ceylin Fatma Çınuk
+  -Katılımcılar: Can Karakoç, Cihan Gürtürk, Ebru Binay, Eda Parak, Ceylin Fatma Çınuk
 
 
 
 - **Sprint Retrospective**
   
-- Sprint içi puan değerlendirmesi 110’dur.Rastgele ama çok kişiye vuran silah kodu diğer sprinte kalmıştır.
+  -Sprint içi puan değerlendirmesi 110’dur.Rastgele ama çok kişiye vuran silah kodu diğer sprinte kalmıştır.
 
-- Takım üyeleri arasındaki iletişimi ve iş birliğinin daha güçlü olması gerektiği vurgulanmıştır.
+  -Takım üyeleri arasındaki iletişimi ve iş birliğinin daha güçlü olması gerektiği vurgulanmıştır.
   
-- Gelecek sprintte daha ayrıntılı çalışılması gerektiği vurgulanmıştır.
+  -Gelecek sprintte daha ayrıntılı çalışılması gerektiği vurgulanmıştır.
 
 
 
