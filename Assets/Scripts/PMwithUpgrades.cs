@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovementa : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
@@ -30,10 +30,6 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection;
 
     Rigidbody rb;
-
-    [Header("OtherStats")] public float armour = 0f; 
-    public int shieldCooldown = 15;
-    public float health = 100f;
 
     private void Start()
     {
