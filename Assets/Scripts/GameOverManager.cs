@@ -21,13 +21,15 @@ public class GameOverManager : MonoBehaviour
     }
 
     public void RestartGame()
+
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+       SceneManager.LoadScene(2);
+       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ReturnToMainMenu()
     {
-        SceneManager.LoadScene(0); // Ana menü sahnesinin build index numarasýný kullan
+        SceneManager.LoadScene(1); // Ana menü sahnesinin build index numarasýný kullan
     }
 
     public void QuitGame()
