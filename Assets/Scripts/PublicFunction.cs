@@ -5,6 +5,14 @@ using UnityEngine;
 public class PublicFunction : MonoBehaviour
 {
     private PlayerMovement _playerMovement;
+
+    private AreaDamager _areaDamager;
+
+    private BulletMovement _bulletMovement;
+
+    private MagicBarrier _magicBarrier;
+    
+    private bool ısActive;
     
     public bool shield = false;
 
@@ -15,7 +23,7 @@ public class PublicFunction : MonoBehaviour
     } 
     
 
-    public void armorIncreaser()
+    public void ArmourIncreaser()
     {
         _playerMovement.armour += 1f;
     }
@@ -45,17 +53,36 @@ public class PublicFunction : MonoBehaviour
 
     public void GunDamage()
     {
-        
+        _bulletMovement.BulletDamage += 15;
     }
 
-    public void areaDamage()
+    public void AreaDamage()
     {
-        
+        if (!_areaDamager.isActive)
+        {
+            _areaDamager.Activater();
+        }
+
+        else
+        {
+            _areaDamager.damage += 10;
+        }
     }
 
-    public void ArmourIncreaser()
+    public void Barrier()
     {
-        armour += 1;
+        if (!_magicBarrier.IsActive)
+        {
+            _magicBarrier.Activator();
+        }
+        
+        else
+        {
+            _magicBarrier.MaksHitAmount += 1;
+            _magicBarrier.hitAmount = _magicBarrier.MaksHitAmount;
+        }
+
+        
     }
 
 

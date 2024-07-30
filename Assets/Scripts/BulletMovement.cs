@@ -10,6 +10,8 @@ public class BulletMovement : MonoBehaviour
     [SerializeField] private float bulletSpeed = 1f;
     [SerializeField] private float timeLimit = 5;
 
+    public int BulletDamage = 20;
+
     // Initialize the bullet with a reference to the spawner
     public void Initialize(BulletSpawner spawner)
     {

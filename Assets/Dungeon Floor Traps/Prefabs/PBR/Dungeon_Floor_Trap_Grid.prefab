@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 33746017018251178}
   - component: {fileID: 23487152774813442}
   - component: {fileID: 64275767958180340}
+  - component: {fileID: -5049357130861800734}
   - component: {fileID: -7276704665240253553}
-  - component: {fileID: -746353545674713474}
   m_Layer: 0
   m_Name: Dungeon_Floor_Trap_Grid
   m_TagString: Trap
@@ -108,19 +108,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 23cfee973004e6043a4e11eab315fbae, type: 3}
---- !u!114 &-7276704665240253553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411054063627100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66c9cce5bef705046826d45bff8b24ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!82 &-746353545674713474
+--- !u!82 &-5049357130861800734
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,9 +118,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ac6034ade498bb94b87620cdf6eac48b, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.33
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -216,3 +204,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-7276704665240253553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411054063627100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66c9cce5bef705046826d45bff8b24ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

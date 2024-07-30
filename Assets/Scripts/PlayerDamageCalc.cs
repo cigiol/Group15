@@ -13,24 +13,28 @@ public class PlayerDamageCalc : MonoBehaviour
     private GiantScriptableObject _giantScriptableObject;
 
     private PlayerMovement _playerMovement;
+    private MagicBarrier _magicBarrier;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Trap"))
+        if (_magicBarrier.hitAmount <= 0)
         {
-            _playerMovement.health -= TrapDamageCalcuator();
-        }
-        else if (other.gameObject.CompareTag("MeleeEnemy"))
-        {
-            _playerMovement.health -= MeleeDamageCalcuator();
-        }
-        else if (other.gameObject.CompareTag("RangedEnemy"))
-        {
-            _playerMovement.health -= RangedDamageCalcuator();
-        }
-        else if (other.gameObject.CompareTag("GiantEnemy"))
-        {
-            _playerMovement.health -= GiantDamageCalcuator();
+            if (other.gameObject.CompareTag("Trap"))
+            {
+                _playerMovement.health -= TrapDamageCalcuator();
+            }
+            else if (other.gameObject.CompareTag("MeleeEnemy"))
+            {
+                _playerMovement.health -= MeleeDamageCalcuator();
+            }
+            else if (other.gameObject.CompareTag("RangedEnemy"))
+            {
+                _playerMovement.health -= RangedDamageCalcuator();
+            }
+            else if (other.gameObject.CompareTag("GiantEnemy"))
+            {
+                _playerMovement.health -= GiantDamageCalcuator();
+            }
         }
         
     }

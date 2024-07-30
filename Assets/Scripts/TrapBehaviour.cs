@@ -6,32 +6,21 @@ using UnityEngine;
 public class TrapBehaviour : MonoBehaviour
 {
     private AudioSource _audioSource;
+    private TrapScriptableObject _trapScriptableObject;
 
     private void Start()
     {
         _audioSource = GetComponent<AudioSource>();
 
-        if (_audioSource == null)
-        {
-            Debug.LogError("AudioSource component not found on " + gameObject.name);
-        }
+        _audioSource.clip = _trapScriptableObject.AudioClip;
     }
-
-    // Called when another collider enters the trigger collider attached to this object
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
-        {
-            if (_audioSource != null)
-            {
-                _audioSource.Play();
-            }
-            else
-            {
-                Debug.LogError("AudioSource is null in OnTriggerEnter on " + gameObject.name);
-            }
-
-            gameObject.SetActive(false);
+        { 
+            _audioSource.Play();
+            
+           gameObject.SetActive(false);
         }
     }
 }
