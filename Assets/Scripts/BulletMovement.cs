@@ -8,6 +8,7 @@ public class BulletMovement : MonoBehaviour
     private BulletSpawner _bulletSpawner;
     private Rigidbody rb;
     [SerializeField] private float bulletSpeed = 1f;
+    [SerializeField] private float timeLimit = 5;
 
     // Initialize the bullet with a reference to the spawner
     public void Initialize(BulletSpawner spawner)
@@ -24,7 +25,7 @@ public class BulletMovement : MonoBehaviour
 
     private void OnEnable()
     {
-        Invoke("TimeLimit", 3f);
+        Invoke("TimeLimit", timeLimit);
     }
 
     private void OnTriggerEnter(Collider other)

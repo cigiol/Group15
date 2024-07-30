@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Exp
   - Bullet
+  - Trap
+  - MeleeEnemy
+  - RangedEnemy
+  - GiantEnemy
   layers:
   - Default
   - TransparentFX
