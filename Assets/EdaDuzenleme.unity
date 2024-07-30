@@ -280,7 +280,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 112876364}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -609577552077274658, guid: 43ff262b7ce9e6e408f62e99a1fa2e31,
+          type: 3}
+        m_TargetAssemblyTypeName: PublicFunction, Assembly-CSharp
+        m_MethodName: Deneme
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: message
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &112876364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,7 +824,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

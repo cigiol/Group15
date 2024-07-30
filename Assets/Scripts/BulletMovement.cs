@@ -1,34 +1,62 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletMovement : MonoBehaviour
 {
+    private BulletSpawner _bulletSpawner;
     private Rigidbody rb;
-    [SerializeField] private float bulletSpeed = 20f;
+    [SerializeField] private float bulletSpeed = 1f;
+    [SerializeField] private float timeLimit = 5;
 
-    private BulletPooler<GameObject> pooler;
+    public int BulletDamage = 20;
+
+    // Initialize the bullet with a reference to the spawner
+    public void Initialize(BulletSpawner spawner)
+    {
+        _bulletSpawner = spawner;
+    }
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.velocity = transform.forward * bulletSpeed; // Set initial velocity
+        
     }
-    
+
+    private void OnEnable()
+    {
+        Invoke("TimeLimit", timeLimit);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject != null)
+        // Deactivate the bullet
+        gameObject.SetActive(false);
+
+        // Check if the collider is not another bullet
+        if (!other.gameObject.CompareTag("Bullet")&& other.gameObject.CompareTag("Player"))
         {
-            gameObject.SetActive(false);
-            pooler.ReleaseItem(gameObject);
-            Debug.Log("Pooled");
+            if (_bulletSpawner != null)
+            {
+                _bulletSpawner.ReleaseItem(gameObject);
+                Debug.Log("Released");
+            }
+            else
+            {
+                Debug.LogError("BulletSpawner reference is not set!");
+            }
         }
     }
 
-    public void OnEnable()
+    private void TimeLimit()
     {
-        var bullet = pooler.GetItem();
-        if (rb != null)
+        if (_bulletSpawner != null)
         {
-            rb.velocity = transform.forward * bulletSpeed;
+            _bulletSpawner.ReleaseItem(gameObject);
+            Debug.Log("TimeLimited");
         }
-        
+        gameObject.SetActive(false); // Deactivate the bullet
     }
 }
