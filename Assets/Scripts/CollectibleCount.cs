@@ -7,11 +7,13 @@ public class CollectibleCount : MonoBehaviour
 {
     TMP_Text text;
     int count;
-    void Awake(){
+    void Awake()
+    {
         text = GetComponent<TMP_Text>();
     }
 
-    public void UpdateExp(){
+    public void UpdateExp()
+    {
         text.text = (++count).ToString();
     }
 

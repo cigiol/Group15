@@ -5,11 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Exp
+  - Bullet
+  - Trap
+  - MeleeEnemy
+  - RangedEnemy
+  - GiantEnemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - ground

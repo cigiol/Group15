@@ -18,7 +18,7 @@ Curse of the Haunted Treasure
 
 ## Product Backlog URL
 
-[Grup15 Unity Miro Backlog Board](https://miro.com/app/board/uXjVK4rKFNE=/)
+[Grup15 Unity Miro Backlog Board](https://miro.com/welcomeonboard/amppTVl6OVpNVEp2NGpEaWhqY2s2TWphTXZndEdGUmRKMTRxVWs5U1JrdDU5dHpGVzI4OVo1Y0EzV3lZSlhub3wzNDU4NzY0NTkzMDQ2NDg5MTI3fDI=?share_link_id=118900032686)
 
 ## Oyunun Açıklaması
 
@@ -83,8 +83,56 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
 -Gelecek sprintte daha ayrıntılı çalışılması gerektiği vurgulanmıştır.
 
+
+# Sprint 2
+
+ **Sprint notları**:ML-agents’ta başarılı olunamadığı için  navmesh üzerinden gidilecek.
+
+**Sprint içi puan değerlendirmesi**: 120 puan olarak belirlenmiştir.
+
+**Daily Scrum**:Whatsapp ve Discord üzerinden görüşmeler yapılmıştır.Daha çok Whatsapp üzerinden yapılmıştır.
+
+**Toplantı ve Whatsapp ScreenShotları**
+
+ [DailyScrumScreenShots](https://imgur.com/a/Zjyqwnu) 
+
  
 
+ - **Sprint board update**: Sprint board screenshot:
+![sprint11](https://github.com/user-attachments/assets/1773bfb1-8b78-47c9-a334-1e5b6b003ebb)
+
+![sprint2](https://github.com/user-attachments/assets/2cf853cb-6337-49da-ad37-dc338234e2af)
+
+![sprint33](https://github.com/user-attachments/assets/e009a3be-5505-410e-bc80-ff27c12523e7)
+
+
+
+
+ **Oyun Durumu**: Ekran görüntüleri:
+ 
+ ![oyun1](https://github.com/user-attachments/assets/c3afa207-abb8-4fbb-844d-e9c01edda47a)
+ 
+ ![oyun2](https://github.com/user-attachments/assets/3108f685-8b23-4a8e-9eef-f530dc5f147e)
+
+ ![oyun3](https://github.com/user-attachments/assets/9c779233-3628-4867-9e96-462d7145a7a7)
+
+
+
+ - **Sprint Review**:
+   
+  -Oyuncu seçme ekranı yapılmış, başlangıç sahnesi oluşturulmuş, scriptable object yazılmış, object pooling sistemi oluşturulmuş,yakın mesafeli saldırı mekaniği kodlanmış,can barı yapılmıştır.
+  
+  -Katılımcılar: Can Karakoç, Cihan Gürtürk, Ebru Binay, Eda Parak, Ceylin Fatma Çınuk
+
+
+
+- **Sprint Retrospective**
+  
+  -Sprint içi puan değerlendirmesi 110’dur.Rastgele ama çok kişiye vuran silah kodu diğer sprinte kalmıştır.
+
+  -Takım üyeleri arasındaki iletişimi ve iş birliğinin daha güçlü olması gerektiği vurgulanmıştır.
+  
+  -Gelecek sprintte daha ayrıntılı çalışılması gerektiği vurgulanmıştır.
 
 
 
