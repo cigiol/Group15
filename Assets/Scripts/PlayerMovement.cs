@@ -31,6 +31,10 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
+    [Header("OtherStats")] public float armour = 0f; 
+    public int shieldCooldown = 15;
+    public float health = 100f;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
