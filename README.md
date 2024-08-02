@@ -136,8 +136,39 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
 
 
+# Sprint 2
+
+ **Sprint notları**:
+
+ **Sprint içi puan değerlendirmesi**:140 puan olarak belirlendi.
+
+ **Daily Scrum**::Whatsapp ve Discord üzerinden görüşmeler yapılmıştır.Daha çok Whatsapp üzerinden yapılmıştır.Tasarım için ayrı Whatsapp grubu oluşturulmuştur.
+
+ **Toplantı ve Whatsapp ScreenShotları**
+
+ [DailyScrumScreenShots](https://imgur.com/a/daily-scrum-3-9ZEp4Tq)
+ 
+
+ - **Sprint board update**:Sprint board screenshot:
 
 
+
+
+
+
+
+
+ **Oyun Durumu**: Ekran görüntüleri:
+ 
+
+
+
+
+ - **Sprint Review**:
+
+
+
+- **Sprint Retrospective**
 
 
 
