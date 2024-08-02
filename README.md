@@ -84,6 +84,8 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 -Gelecek sprintte daha ayrıntılı çalışılması gerektiği vurgulanmıştır.
 
 
+
+
 # Sprint 2
 
  **Sprint notları**:ML-agents’ta başarılı olunamadığı için  navmesh üzerinden gidilecek.
@@ -136,9 +138,9 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
 
 
-# Sprint 2
+ # Sprint 3
 
- **Sprint notları**:
+ **Sprint notları**:Backlog’ta kalan taskler süre yetmediği için başlanamadı.
 
  **Sprint içi puan değerlendirmesi**:140 puan olarak belirlendi.
 
@@ -165,17 +167,30 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
 
 
  **Oyun Durumu**: Ekran görüntüleri:
+
+ ![Ekran görüntüsü 2024-08-02 181404](https://github.com/user-attachments/assets/c2169145-0019-459f-bd9d-3877c19b9786)
+ 
+![Ekran görüntüsü 2024-08-02 200839](https://github.com/user-attachments/assets/41dd5be5-e58c-4033-9476-54512602ef65)
+
+![Ekran görüntüsü 2024-08-02 200656](https://github.com/user-attachments/assets/a713f2b8-a8ac-4700-95cd-2b7b5fd617e1)
+
  
 
 
 
 
  - **Sprint Review**:
-
+   
+   -Navmesh eğitimi tamamlandı,karakterin bazı beceri kodları yazıldı,oyunun hikayesinin sunumu yapıldı,oyuncu öldüğünde çıkan istatistik tablosu yapıldı.
+   
+   -Katılımcılar: Can Karakoç, Cihan Gürtürk, Ebru Binay,Ceylin Fatma Çınuk
 
 
 - **Sprint Retrospective**
 
+-Sprint içi puan değerlendimesi 80 puandır.Kalan tasklerin backlogta olanları süre yetmediği için to do kalanlar ise oyun içinde çıkan hatadan dolayı tamamlanamamıştır.
+
+-Gelecek projelerde iletişimde olunacağına dair karar alındı.
 
 
 
