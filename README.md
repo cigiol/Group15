@@ -150,6 +150,12 @@ Oyuncu üzerine oyun süresine oranla gelen düşmanları alt ederek düşürdü
  
 
  - **Sprint board update**:Sprint board screenshot:
+   
+![Ekran görüntüsü 2024-08-02 192625](https://github.com/user-attachments/assets/4f426d20-c3ea-4431-9721-9039414ac3b7)
+
+![Ekran görüntüsü 2024-08-02 192648](https://github.com/user-attachments/assets/fb66e7f4-ad5b-4d4c-9ce2-b5cf22463f42)
+
+![Ekran görüntüsü 2024-08-02 195016](https://github.com/user-attachments/assets/5960c43f-1e84-438c-8f10-047ee28df3da)
 
 
 
